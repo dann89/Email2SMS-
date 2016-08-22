@@ -31,14 +31,15 @@
             }
 
             .title {
-                font-size: 96px;
+                font-size: 30px;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Email 2 SMS</div>
+                <p>Coming Soon</p>
             </div>
         </div>
     </body>
