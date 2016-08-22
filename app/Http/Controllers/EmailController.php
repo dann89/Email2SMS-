@@ -34,7 +34,7 @@ class EmailController extends Controller
 
         // Generate Message
         
-        $message = 'NEW ALARM: ' . $body; 
+        $message = 'ALERT: ' . $body; 
 
         // Send the message to mobile
 
