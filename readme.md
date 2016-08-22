@@ -1,4 +1,4 @@
-# Laravel PHP Framework
+# Quick Email to SMS Alert
 
 Standard Laravel 5.2 Framework
 
