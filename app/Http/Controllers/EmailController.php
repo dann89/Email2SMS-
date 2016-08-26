@@ -23,9 +23,9 @@ class EmailController extends Controller
   		$from = $request['From'];
     	$to = $request['To'];
     	$subject = $request['Subject'];
-    	// $body = $request['body-plain'];
+    	$body = $request['body-plain'];
 
-        $body = 'This is a test message! Hooray!! Kind regards Dan';
+
 
     	// Twillo API Settings
     	
@@ -47,6 +47,9 @@ class EmailController extends Controller
         $twilio = new \Aloha\Twilio\Twilio($accountId, $token, $fromNumber);
 
         $twilio->message(env('MOBILE'), $message);
+        $twilio->message(env('MOBILE2'), $message);
+        $twilio->message(env('MOBILE3'), $message);
+        $twilio->message(env('MOBILE4'), $message);
 
     	// Log::info($request['to']);
     	// Log::info($request['body-plain']);
